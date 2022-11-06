@@ -1,5 +1,5 @@
 filegroup(
     name = "haiti",
     srcs = glob(["*"]),
-    deps = "//datasets/haiti/PortAuPrince_Roads",
+    data = ["//datasets/haiti/PortAuPrince_Roads"],
 )
